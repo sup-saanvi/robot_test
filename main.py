@@ -21,20 +21,16 @@ def delivery_rout():
     """Ask user for what location they want to send there robot to and return it."""
     return input("enter a location to send robot to: ")
 
-name = input("Hello user welcome to the robot delivery game!: ").strip().title()
+name = input("Hello user welcome to the robot delivery game! What is your name?: ").strip().title()
     
 print(f"Hello {name}!")
 
 
 def downtown():
-    """"""
+    """This is where we will add how much is the distance"""
 
-
-
-
-
-
-
+def suberbs():
+    """This is where we will add how much is the """
 
 
 
@@ -62,7 +58,7 @@ def main():
     else:
         print("Invalid choice")
 
-if__delivery__ == "__main__":
+if__delivery__ == "__main__"
 main()
 
     

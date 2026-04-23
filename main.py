@@ -6,6 +6,41 @@ delivers certain things.
 # make a main function that will store the following options for delivery
 # and those are Downtown, Suberbs, and Industrials 
 
+def main():
+    """This is where I will add functions """
+    delivery = delivery_rout()
+    print("n/Welcome to", delivery)
+
+    print("\n1- downtown")
+    print("2- Suberbs ")
+    print("3- Industial")
+
+    choice = input ("Choose a location to send your robot")
+
+    if choice == "1":
+        downtown()
+
+    elif choice == "2":
+        suberbs()
+
+    elif choice == "3":
+        Industial()
+
+    else:
+        print("Invalid choice")
+
+if__delivery__ == "__main__":
+main()
+
+    
+
+
+
+
+
+
+
+
 # get the total delivery distance that is inbetween 5-500 km
 
 # get the weight of the cargo that each robot is carring that's in between 1and 50 kg
